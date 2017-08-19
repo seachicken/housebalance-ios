@@ -1,0 +1,14 @@
+# Various settings
+*.pbxuser
+!default.pbxuser
+xcuserdata/
+
+# Carthage
+Carthage/
+
+# Design
+Design/*.png
+Design/*.svg
+Design/*.pdf
+
+Secrets/

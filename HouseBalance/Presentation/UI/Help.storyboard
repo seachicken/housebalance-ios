@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Help View Controller-->
+        <scene sceneID="ehF-be-vXP">
+            <objects>
+                <viewController storyboardIdentifier="HelpViewController" id="A63-vz-eGa" customClass="HelpViewController" customModule="HouseBalance" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yle-SO-qDA"/>
+                        <viewControllerLayoutGuide type="bottom" id="S2W-0e-tWA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rze-QL-RaY">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="154"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGx-e0-DCp" userLabel="Content View">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="154"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame" translatesAutoresizingMaskIntoConstraints="NO" id="drX-vq-UEG">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="154"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本割合は統計情報を基に算出した理想的な配分となっています。 家計を見直す際は、無理に合わせるのではなく、あくまで目安としてご利用ください。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaD-we-sxF">
+                                        <rect key="frame" x="20" y="26.5" width="260" height="101.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.30867734940000002" green="0.30867734940000002" blue="0.30867734940000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="drX-vq-UEG" secondAttribute="bottom" id="BEO-7k-HRA"/>
+                                    <constraint firstItem="vaD-we-sxF" firstAttribute="centerY" secondItem="FGx-e0-DCp" secondAttribute="centerY" id="E6p-oL-UpV"/>
+                                    <constraint firstItem="drX-vq-UEG" firstAttribute="top" secondItem="FGx-e0-DCp" secondAttribute="top" id="Jnt-5W-WeR"/>
+                                    <constraint firstAttribute="trailing" secondItem="vaD-we-sxF" secondAttribute="trailing" constant="20" id="P9f-4K-XHq"/>
+                                    <constraint firstAttribute="trailing" secondItem="drX-vq-UEG" secondAttribute="trailing" id="UiT-n6-i0x"/>
+                                    <constraint firstItem="drX-vq-UEG" firstAttribute="leading" secondItem="FGx-e0-DCp" secondAttribute="leading" id="cSf-se-BIM"/>
+                                    <constraint firstItem="vaD-we-sxF" firstAttribute="leading" secondItem="FGx-e0-DCp" secondAttribute="leading" constant="20" id="cfP-H7-bLf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="FGx-e0-DCp" secondAttribute="bottom" id="FVC-cp-0zT"/>
+                            <constraint firstItem="FGx-e0-DCp" firstAttribute="leading" secondItem="Rze-QL-RaY" secondAttribute="leading" id="id3-oR-nUk"/>
+                            <constraint firstAttribute="trailing" secondItem="FGx-e0-DCp" secondAttribute="trailing" id="m6s-7F-4Ki"/>
+                            <constraint firstItem="FGx-e0-DCp" firstAttribute="top" secondItem="Rze-QL-RaY" secondAttribute="top" id="u2u-xk-dRo"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="154"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryh-4d-04P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160" y="-97"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frame" width="31" height="31"/>
+    </resources>
+</document>

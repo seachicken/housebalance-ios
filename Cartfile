@@ -1,0 +1,3 @@
+github "ReactiveX/RxSwift" ~> 3.0
+github "andreamazz/BubbleTransition"
+github "jverdi/JVFloatLabeledTextField"

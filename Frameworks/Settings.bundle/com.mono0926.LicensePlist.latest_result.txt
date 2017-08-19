@@ -1,0 +1,11 @@
+name: LicensePlist, nameSpecified: , owner: mono0926, version: 1.4.5
+
+name: BubbleTransition, nameSpecified: , owner: andreamazz, version: 2.0.2
+
+name: JVFloatLabeledTextField, nameSpecified: , owner: jverdi, version: 1.2.0
+
+name: RxSwift, nameSpecified: , owner: ReactiveX, version: 3.5.0
+
+add-version-numbers: false
+
+LicensePlist Version: 1.4.5
