@@ -4,7 +4,7 @@ name: BubbleTransition, nameSpecified: , owner: andreamazz, version: 2.0.2
 
 name: JVFloatLabeledTextField, nameSpecified: , owner: jverdi, version: 1.2.0
 
-name: RxSwift, nameSpecified: , owner: ReactiveX, version: 3.5.0
+name: RxSwift, nameSpecified: , owner: ReactiveX, version: 3.6.1
 
 add-version-numbers: false
 
