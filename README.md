@@ -7,4 +7,4 @@
 ## Usage
 
 1. `cd housebalance-ios`
--  `carthage update --platform iOS`
+1. `carthage update --platform iOS`
