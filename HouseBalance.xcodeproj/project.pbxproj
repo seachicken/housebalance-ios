@@ -57,7 +57,6 @@
 		DB8C9DF41EB4079000761B52 /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8C9DF31EB4079000761B52 /* Top.storyboard */; };
 		DB90798E1EB692F4001C8C46 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB90798D1EB692F4001C8C46 /* RxSwift.framework */; };
 		DB9079911EB6B113001C8C46 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9079901EB6B113001C8C46 /* TopViewModel.swift */; };
-		DB9B90AC1EC4B13A002E51C5 /* String+FormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B90AB1EC4B13A002E51C5 /* String+FormatterTests.swift */; };
 		DB9B90AE1EC4B14B002E51C5 /* String+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B90AD1EC4B14B002E51C5 /* String+Formatter.swift */; };
 		DB9B90B11EC565B0002E51C5 /* JVFloatLabeledText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B90B01EC565B0002E51C5 /* JVFloatLabeledText.framework */; };
 		DBAB06971EE1A40D0087F665 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBAB06961EE1A40D0087F665 /* GoogleService-Info.plist */; };
@@ -78,6 +77,8 @@
 		DBBDC0811EE1AF9000B29204 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDC0801EE1AF9000B29204 /* MobileCoreServices.framework */; };
 		DBBDC0841EE1C20900B29204 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDC0821EE1C20900B29204 /* Crashlytics.framework */; };
 		DBBDC0851EE1C20900B29204 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDC0831EE1C20900B29204 /* Fabric.framework */; };
+		DBC2F6B51F50E519002710FF /* Int+FormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD61E821EC737D400E018FD /* Int+FormatterTests.swift */; };
+		DBC2F6B61F50E51C002710FF /* String+FormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B90AB1EC4B13A002E51C5 /* String+FormatterTests.swift */; };
 		DBCE4D8D1F47FDE5008F5292 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00F22B1EC3125C001499BF /* ResultCell.swift */; };
 		DBCE4D8E1F47FDEF008F5292 /* GADBannerView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDD5FF1F375EAD00692191 /* GADBannerView+Helper.swift */; };
 		DBCE4D8F1F47FDF1008F5292 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C8AA81EBDE14300AFC448 /* Storyboard.swift */; };
@@ -90,7 +91,6 @@
 		DBD0F1331EC2645B004F1C34 /* BubbleTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0F1321EC2645B004F1C34 /* BubbleTransition.framework */; };
 		DBD61E7E1EC6F2D400E018FD /* SalaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD61E7D1EC6F2D400E018FD /* SalaryTests.swift */; };
 		DBD61E801EC6F2E600E018FD /* Salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD61E7F1EC6F2E600E018FD /* Salary.swift */; };
-		DBD61E831EC737D400E018FD /* Int+FormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD61E821EC737D400E018FD /* Int+FormatterTests.swift */; };
 		DBD61E851EC737EB00E018FD /* Int+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD61E841EC737EB00E018FD /* Int+Formatter.swift */; };
 		DBD61E9C1EC7D54D00E018FD /* InputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD61E9B1EC7D54D00E018FD /* InputAccessoryView.xib */; };
 		DBE701C41EC3C85000B2D7EF /* StoredConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE701C31EC3C85000B2D7EF /* StoredConvertible.swift */; };
@@ -149,8 +149,8 @@
 		DB8C9DF31EB4079000761B52 /* Top.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Top.storyboard; sourceTree = "<group>"; };
 		DB90798D1EB692F4001C8C46 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		DB9079901EB6B113001C8C46 /* TopViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
-		DB9B90AB1EC4B13A002E51C5 /* String+FormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+FormatterTests.swift"; path = "Utils/String+FormatterTests.swift"; sourceTree = "<group>"; };
-		DB9B90AD1EC4B14B002E51C5 /* String+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Formatter.swift"; path = "Utils/String+Formatter.swift"; sourceTree = "<group>"; };
+		DB9B90AB1EC4B13A002E51C5 /* String+FormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FormatterTests.swift"; sourceTree = "<group>"; };
+		DB9B90AD1EC4B14B002E51C5 /* String+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Formatter.swift"; sourceTree = "<group>"; };
 		DB9B90B01EC565B0002E51C5 /* JVFloatLabeledText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JVFloatLabeledText.framework; path = Carthage/Build/iOS/JVFloatLabeledText.framework; sourceTree = "<group>"; };
 		DBAB06961EE1A40D0087F665 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DBAB069C1EE1A6210087F665 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
@@ -181,8 +181,8 @@
 		DBD0F1321EC2645B004F1C34 /* BubbleTransition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BubbleTransition.framework; path = Carthage/Build/iOS/BubbleTransition.framework; sourceTree = "<group>"; };
 		DBD61E7D1EC6F2D400E018FD /* SalaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SalaryTests.swift; path = Models/SalaryTests.swift; sourceTree = "<group>"; };
 		DBD61E7F1EC6F2E600E018FD /* Salary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Salary.swift; path = Models/Salary.swift; sourceTree = "<group>"; };
-		DBD61E821EC737D400E018FD /* Int+FormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+FormatterTests.swift"; path = "Utils/Int+FormatterTests.swift"; sourceTree = "<group>"; };
-		DBD61E841EC737EB00E018FD /* Int+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Formatter.swift"; path = "Utils/Int+Formatter.swift"; sourceTree = "<group>"; };
+		DBD61E821EC737D400E018FD /* Int+FormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+FormatterTests.swift"; sourceTree = "<group>"; };
+		DBD61E841EC737EB00E018FD /* Int+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Formatter.swift"; sourceTree = "<group>"; };
 		DBD61E9B1EC7D54D00E018FD /* InputAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputAccessoryView.xib; sourceTree = "<group>"; };
 		DBD61E9E1EC7DC3F00E018FD /* InputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputAccessoryView.swift; sourceTree = "<group>"; };
 		DBE701C31EC3C85000B2D7EF /* StoredConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoredConvertible.swift; path = Store/StoredConvertible.swift; sourceTree = "<group>"; };
@@ -241,7 +241,7 @@
 			path = ../Configs;
 			sourceTree = "<group>";
 		};
-		DB3678B91ED8D63D00A2C7EE /* Utils */ = {
+		DB3678B91ED8D63D00A2C7EE /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				DBD61E841EC737EB00E018FD /* Int+Formatter.swift */,
@@ -249,7 +249,7 @@
 				DB9B90AD1EC4B14B002E51C5 /* String+Formatter.swift */,
 				DB9B90AB1EC4B13A002E51C5 /* String+FormatterTests.swift */,
 			);
-			name = Utils;
+			path = Library;
 			sourceTree = "<group>";
 		};
 		DB3678BC1EDC64CC00A2C7EE /* Transitions */ = {
@@ -355,10 +355,10 @@
 				DB8C9DC91EB3ED7800761B52 /* Assets.xcassets */,
 				DB7C8ABF1EBF083000AFC448 /* BalanceSheetMetadata */,
 				DB0071541F45489900387E68 /* Configs */,
+				DB3678B91ED8D63D00A2C7EE /* Library */,
 				DB7C8ACE1EBF459700AFC448 /* Models */,
 				DB8C9DF01EB3F1C500761B52 /* Presentation */,
 				DBD0F12D1EC25C09004F1C34 /* Store */,
-				DB3678B91ED8D63D00A2C7EE /* Utils */,
 			);
 			path = HouseBalance;
 			sourceTree = "<group>";
@@ -366,10 +366,10 @@
 		DB8C9DF01EB3F1C500761B52 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DBCDD5FE1F375E0900692191 /* Library */,
 				DB7C63281ED3106E000117C7 /* Styles */,
 				DB3678BC1EDC64CC00A2C7EE /* Transitions */,
 				DB8C9DF11EB3F1E000761B52 /* UI */,
-				DBCDD5FE1F375E0900692191 /* Utils */,
 				DB8C9DF21EB3F28500761B52 /* ViewControllers */,
 				DB90798F1EB6B0E4001C8C46 /* ViewModels */,
 			);
@@ -444,13 +444,13 @@
 			path = Analytics;
 			sourceTree = "<group>";
 		};
-		DBCDD5FE1F375E0900692191 /* Utils */ = {
+		DBCDD5FE1F375E0900692191 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				DBCDD5FF1F375EAD00692191 /* GADBannerView+Helper.swift */,
 				DB7C8AA81EBDE14300AFC448 /* Storyboard.swift */,
 			);
-			path = Utils;
+			path = Library;
 			sourceTree = "<group>";
 		};
 		DBD0F12D1EC25C09004F1C34 /* Store */ = {
@@ -688,12 +688,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC2F6B61F50E51C002710FF /* String+FormatterTests.swift in Sources */,
 				DB00F2321EC35226001499BF /* FamilyStructureTests.swift in Sources */,
 				DB7C8A571EB736F200AFC448 /* TopViewModelTests.swift in Sources */,
 				DB7C8AD21EBF461400AFC448 /* BalanceSheetLoaderTests.swift in Sources */,
-				DBD61E831EC737D400E018FD /* Int+FormatterTests.swift in Sources */,
-				DB9B90AC1EC4B13A002E51C5 /* String+FormatterTests.swift in Sources */,
 				DBD0F12F1EC25CE5004F1C34 /* AppEnvironmentTests.swift in Sources */,
+				DBC2F6B51F50E519002710FF /* Int+FormatterTests.swift in Sources */,
 				DBD61E7E1EC6F2D400E018FD /* SalaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
