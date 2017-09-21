@@ -28,18 +28,18 @@ struct ResultViewModel: ResultViewModelType, ResultViewModelInputs, ResultViewMo
   private let expensesVariable = Variable<[Expense]>(
     BalanceSheetLoader().load(structure: AppEnvironment.settings.familyStructure).expenses)
   private let helpViewShownVariable = Variable<Bool>(false)
-  private let dismissVariable = Variable<Void>()
+  private let dismissEvent = PublishSubject<Void>()
 
   func helpButtonPressed() {
     self.helpViewShownVariable.value = true
   }
   func closeButtonPressed() {
-    self.dismissVariable.value = ()
+    self.dismissEvent.onNext(())
   }
 
   var expenses: Observable<[Expense]> { return self.expensesVariable.asObservable() }
   var helpViewShown: Observable<Bool> { return self.helpViewShownVariable.asObservable() }
-  var dismiss: Observable<Void> { return self.dismissVariable.asObservable() }
+  var dismiss: Observable<Void> { return self.dismissEvent }
 
   var inputs: ResultViewModelInputs { return self }
   var outputs: ResultViewModelOutputs { return self }
