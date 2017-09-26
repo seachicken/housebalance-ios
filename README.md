@@ -11,4 +11,4 @@ This project structure adopts RxSwift on MVVM architecture.
 
 1. Clone this repository.
 1. `cd housebalance-ios`
-1. `carthage update --platform iOS`
+1. `carthage update --platform iOS --no-use-binaries`
