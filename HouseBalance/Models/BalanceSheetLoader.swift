@@ -13,7 +13,7 @@ class BalanceSheetLoader {
     guard let path = Bundle(for: type(of: self))
       .url(forResource: structure.rawValue.uppercaseFirst, withExtension: "plist")
       else { fatalError("リソースが見つからない") }
-    guard let balances = NSDictionary(contentsOf: path)?["Balances"] as? [[String : Any]]
+    guard let balances = NSDictionary(contentsOf: path)?["Balances"] as? [[String: Any]]
       else { fatalError("割合をひとまとめにしたキーが存在しない") }
 
     return BalanceSheet(expenses: balances

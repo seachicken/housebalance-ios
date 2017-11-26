@@ -49,7 +49,7 @@ extension UserDefaults: KeyValueStoreType {
 }
 
 class MockKeyValueStore: KeyValueStoreType {
-  var store: [String:Any] = [:]
+  var store: [String: Any] = [:]
 
   func integer(forKey key: String) -> Int {
     return self.store[key] as? Int ?? 0

@@ -143,7 +143,7 @@ extension TopViewController: UIPickerViewDelegate {
   }
 
   func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-    self.viewModel.inputs.pickerView(didSelectRow : row)
+    self.viewModel.inputs.pickerView(didSelectRow: row)
   }
 }
 
