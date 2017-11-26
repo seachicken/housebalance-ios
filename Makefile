@@ -1,4 +1,4 @@
 configs:
-	cp -f Secrets/** Configs/
+	cp -f Secrets/** HouseBalance/Configs/
 
 .PHONY: configs

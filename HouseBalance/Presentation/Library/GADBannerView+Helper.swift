@@ -17,7 +17,8 @@ extension GADBannerView {
     let request = GADRequest()
     #if DEBUG
       request.testDevices = [kGADSimulatorID,
-                             "b85d5bff495812295dd3726af0b30848"]
+                             "b85d5bff495812295dd3726af0b30848",
+                             "7f8395e59d0206ce7eddacf561758806"]
     #endif
     self.load(request)
   }

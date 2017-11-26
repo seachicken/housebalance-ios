@@ -237,8 +237,7 @@
 				DBAB06961EE1A40D0087F665 /* GoogleService-Info.plist */,
 				DB0071551F45D02700387E68 /* Secrets.swift */,
 			);
-			name = Configs;
-			path = ../Configs;
+			path = Configs;
 			sourceTree = "<group>";
 		};
 		DB3678B91ED8D63D00A2C7EE /* Library */ = {
