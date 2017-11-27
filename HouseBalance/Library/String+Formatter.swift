@@ -8,8 +8,7 @@
 
 extension String {
   var uppercaseFirst: String {
-    return String(self.characters.prefix(1)).uppercased()
-      + String(self.characters.dropFirst())
+    return String(self.prefix(1)).uppercased() + String(self.dropFirst())
   }
 
   var percent: String {
