@@ -1,3 +1,59 @@
+name: Firebase, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseAnalytics, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseCore, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseCrash, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseInstanceID, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: Google-Mobile-Ads-SDK, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: GoogleToolboxForMac, nameSpecified: 
+body: 
+                   …
+
+name: Protobuf, nameSpecified: 
+body: This license applies…
+
+name: nanopb, nameSpecified: 
+body: Copyright (c) 2011 P…
+
+name: Firebase, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseAnalytics, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseCore, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseCrash, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: FirebaseInstanceID, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: Google-Mobile-Ads-SDK, nameSpecified: 
+body: Copyright 2017 Googl…
+
+name: GoogleToolboxForMac, nameSpecified: 
+body: 
+                   …
+
+name: Protobuf, nameSpecified: 
+body: This license applies…
+
+name: nanopb, nameSpecified: 
+body: Copyright (c) 2011 P…
+
 name: LicensePlist, nameSpecified: , owner: mono0926, version: 1.4.5
 
 name: RxSwift, nameSpecified: , owner: ReactiveX, version: 3.6.1
