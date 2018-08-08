@@ -108,8 +108,8 @@
 		7DF61ECF480AFBDD26173A90 /* Pods-HouseBalance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseBalance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseBalance/Pods-HouseBalance.debug.xcconfig"; sourceTree = "<group>"; };
 		DB0071551F45D02700387E68 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		DB00F22B1EC3125C001499BF /* ResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
-		DB00F22F1EC3309D001499BF /* FamilyStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FamilyStructure.swift; path = Models/FamilyStructure.swift; sourceTree = "<group>"; };
-		DB00F2311EC35226001499BF /* FamilyStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FamilyStructureTests.swift; path = Models/FamilyStructureTests.swift; sourceTree = "<group>"; };
+		DB00F22F1EC3309D001499BF /* FamilyStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyStructure.swift; sourceTree = "<group>"; };
+		DB00F2311EC35226001499BF /* FamilyStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyStructureTests.swift; sourceTree = "<group>"; };
 		DB24D37E1F1964DE00A7EE99 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Frameworks/Settings.bundle; sourceTree = "<group>"; };
 		DB3678B71ED8D56B00A2C7EE /* Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
 		DB3678BA1ED8F6A600A2C7EE /* PopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPresentationController.swift; sourceTree = "<group>"; };
@@ -118,15 +118,15 @@
 		DB554E111EB5CE46001E5B33 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		DB554E131EB5D441001E5B33 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB554E151EB5D48C001E5B33 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DB55947A1F3EF1EF00B1F6CA /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = Models/Expense.swift; sourceTree = "<group>"; };
+		DB55947A1F3EF1EF00B1F6CA /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		DB7C63291ED310A9000117C7 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = Styles/Colors.swift; sourceTree = "<group>"; };
 		DB7C632B1ED3EAE9000117C7 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		DB7C8A521EB735E200AFC448 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		DB7C8A531EB735E200AFC448 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		DB7C8A561EB736F200AFC448 /* TopViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopViewModelTests.swift; path = HouseBalance/Presentation/ViewModels/TopViewModelTests.swift; sourceTree = SOURCE_ROOT; };
 		DB7C8A9E1EBA1E5F00AFC448 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		DB7C8AA41EBCCE8000AFC448 /* KeyValueStoreType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyValueStoreType.swift; path = Store/KeyValueStoreType.swift; sourceTree = "<group>"; };
-		DB7C8AA61EBD453A00AFC448 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEnvironment.swift; path = Store/AppEnvironment.swift; sourceTree = "<group>"; };
+		DB7C8AA41EBCCE8000AFC448 /* KeyValueStoreType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueStoreType.swift; sourceTree = "<group>"; };
+		DB7C8AA61EBD453A00AFC448 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		DB7C8AA81EBDE14300AFC448 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		DB7C8AAA1EBDE5FD00AFC448 /* ResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
 		DB7C8AC01EBF08C200AFC448 /* MarriedCouple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarriedCouple.plist; path = BalanceSheetMetadata/MarriedCouple.plist; sourceTree = "<group>"; };
@@ -136,9 +136,9 @@
 		DB7C8AC41EBF08C200AFC448 /* MarriedCoupleAndLittleChild2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarriedCoupleAndLittleChild2.plist; path = BalanceSheetMetadata/MarriedCoupleAndLittleChild2.plist; sourceTree = "<group>"; };
 		DB7C8AC51EBF08C200AFC448 /* Single.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Single.plist; path = BalanceSheetMetadata/Single.plist; sourceTree = "<group>"; };
 		DB7C8AC61EBF08C200AFC448 /* SingleAndParent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SingleAndParent.plist; path = BalanceSheetMetadata/SingleAndParent.plist; sourceTree = "<group>"; };
-		DB7C8ACF1EBF45DB00AFC448 /* BalanceSheetLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalanceSheetLoader.swift; path = Models/BalanceSheetLoader.swift; sourceTree = "<group>"; };
-		DB7C8AD11EBF461400AFC448 /* BalanceSheetLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalanceSheetLoaderTests.swift; path = Models/BalanceSheetLoaderTests.swift; sourceTree = "<group>"; };
-		DB7C8AE91EBF5A0000AFC448 /* BalanceSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalanceSheet.swift; path = Models/BalanceSheet.swift; sourceTree = "<group>"; };
+		DB7C8ACF1EBF45DB00AFC448 /* BalanceSheetLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceSheetLoader.swift; sourceTree = "<group>"; };
+		DB7C8AD11EBF461400AFC448 /* BalanceSheetLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceSheetLoaderTests.swift; sourceTree = "<group>"; };
+		DB7C8AE91EBF5A0000AFC448 /* BalanceSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceSheet.swift; sourceTree = "<group>"; };
 		DB8C9DBF1EB3ED7800761B52 /* HouseBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8C9DC21EB3ED7800761B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB8C9DC41EB3ED7800761B52 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
@@ -166,15 +166,15 @@
 		DBBDC07E1EE1AF6E00B29204 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		DBBDC0801EE1AF9000B29204 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DBCDD5FF1F375EAD00692191 /* GADBannerView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GADBannerView+Helper.swift"; sourceTree = "<group>"; };
-		DBD0F12E1EC25CE5004F1C34 /* AppEnvironmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEnvironmentTests.swift; path = Store/AppEnvironmentTests.swift; sourceTree = "<group>"; };
+		DBD0F12E1EC25CE5004F1C34 /* AppEnvironmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironmentTests.swift; sourceTree = "<group>"; };
 		DBD0F1321EC2645B004F1C34 /* BubbleTransition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BubbleTransition.framework; path = Carthage/Build/iOS/BubbleTransition.framework; sourceTree = "<group>"; };
-		DBD61E7D1EC6F2D400E018FD /* SalaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SalaryTests.swift; path = Models/SalaryTests.swift; sourceTree = "<group>"; };
-		DBD61E7F1EC6F2E600E018FD /* Salary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Salary.swift; path = Models/Salary.swift; sourceTree = "<group>"; };
+		DBD61E7D1EC6F2D400E018FD /* SalaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryTests.swift; sourceTree = "<group>"; };
+		DBD61E7F1EC6F2E600E018FD /* Salary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salary.swift; sourceTree = "<group>"; };
 		DBD61E821EC737D400E018FD /* Int+FormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+FormatterTests.swift"; sourceTree = "<group>"; };
 		DBD61E841EC737EB00E018FD /* Int+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Formatter.swift"; sourceTree = "<group>"; };
 		DBD61E9B1EC7D54D00E018FD /* InputAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputAccessoryView.xib; sourceTree = "<group>"; };
 		DBD61E9E1EC7DC3F00E018FD /* InputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputAccessoryView.swift; sourceTree = "<group>"; };
-		DBE701C31EC3C85000B2D7EF /* StoredConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoredConvertible.swift; path = Store/StoredConvertible.swift; sourceTree = "<group>"; };
+		DBE701C31EC3C85000B2D7EF /* StoredConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoredConvertible.swift; sourceTree = "<group>"; };
 		E3518B3B9793C43670CE9FDE /* Pods_HouseBalanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseBalanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -236,7 +236,7 @@
 			path = Configs;
 			sourceTree = "<group>";
 		};
-		DB3678B91ED8D63D00A2C7EE /* Library */ = {
+		DB3678B91ED8D63D00A2C7EE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				DBD61E841EC737EB00E018FD /* Int+Formatter.swift */,
@@ -244,7 +244,7 @@
 				DB9B90AD1EC4B14B002E51C5 /* String+Formatter.swift */,
 				DB9B90AB1EC4B13A002E51C5 /* String+FormatterTests.swift */,
 			);
-			path = Library;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		DB3678BC1EDC64CC00A2C7EE /* Transitions */ = {
@@ -306,7 +306,7 @@
 			name = BalanceSheetMetadata;
 			sourceTree = "<group>";
 		};
-		DB7C8ACE1EBF459700AFC448 /* Models */ = {
+		DB7C8ACE1EBF459700AFC448 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
 				DB7C8AE91EBF5A0000AFC448 /* BalanceSheet.swift */,
@@ -318,7 +318,7 @@
 				DBD61E7F1EC6F2E600E018FD /* Salary.swift */,
 				DBD61E7D1EC6F2D400E018FD /* SalaryTests.swift */,
 			);
-			name = Models;
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		DB8C9DB61EB3ED7800761B52 = {
@@ -350,10 +350,10 @@
 				DB8C9DC91EB3ED7800761B52 /* Assets.xcassets */,
 				DB7C8ABF1EBF083000AFC448 /* BalanceSheetMetadata */,
 				DB0071541F45489900387E68 /* Configs */,
-				DB3678B91ED8D63D00A2C7EE /* Library */,
-				DB7C8ACE1EBF459700AFC448 /* Models */,
+				DBD0F12D1EC25C09004F1C34 /* Data */,
+				DB7C8ACE1EBF459700AFC448 /* Domain */,
 				DB8C9DF01EB3F1C500761B52 /* Presentation */,
-				DBD0F12D1EC25C09004F1C34 /* Store */,
+				DB3678B91ED8D63D00A2C7EE /* Utils */,
 			);
 			path = HouseBalance;
 			sourceTree = "<group>";
@@ -361,7 +361,7 @@
 		DB8C9DF01EB3F1C500761B52 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				DBCDD5FE1F375E0900692191 /* Library */,
+				DBCDD5FE1F375E0900692191 /* Utils */,
 				DB7C63281ED3106E000117C7 /* Styles */,
 				DB3678BC1EDC64CC00A2C7EE /* Transitions */,
 				DB8C9DF11EB3F1E000761B52 /* UI */,
@@ -407,16 +407,16 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		DBCDD5FE1F375E0900692191 /* Library */ = {
+		DBCDD5FE1F375E0900692191 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				DBCDD5FF1F375EAD00692191 /* GADBannerView+Helper.swift */,
 				DB7C8AA81EBDE14300AFC448 /* Storyboard.swift */,
 			);
-			path = Library;
+			path = Utils;
 			sourceTree = "<group>";
 		};
-		DBD0F12D1EC25C09004F1C34 /* Store */ = {
+		DBD0F12D1EC25C09004F1C34 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				DB7C8AA61EBD453A00AFC448 /* AppEnvironment.swift */,
@@ -424,7 +424,7 @@
 				DB7C8AA41EBCCE8000AFC448 /* KeyValueStoreType.swift */,
 				DBE701C31EC3C85000B2D7EF /* StoredConvertible.swift */,
 			);
-			name = Store;
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

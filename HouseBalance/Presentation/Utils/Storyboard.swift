@@ -14,10 +14,10 @@ enum Storyboard: String {
   case help
 
   func instantiate<VC: UIViewController>(_ viewController: VC.Type) -> VC {
-    guard let vc = UIStoryboard.init(name: self.rawValue.uppercaseFirst, bundle: Bundle(for: VC.self))
+    guard let createdVc = UIStoryboard.init(name: self.rawValue.uppercaseFirst, bundle: Bundle(for: VC.self))
       .instantiateViewController(withIdentifier: String(describing: VC.self)) as? VC
       else { fatalError("StoryboardからVCを生成できない ID: \(String(describing: VC.self))") }
 
-    return vc
+    return createdVc
   }
 }
