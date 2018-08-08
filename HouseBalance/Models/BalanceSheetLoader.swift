@@ -17,7 +17,7 @@ class BalanceSheetLoader {
       else { fatalError("割合をひとまとめにしたキーが存在しない") }
 
     return BalanceSheet(expenses: balances
-      .flatMap {
+      .compactMap {
         if let key = $0["key"] as? String,
           let value = $0["value"] as? Int {
           return Expense(title: key, rate: value)

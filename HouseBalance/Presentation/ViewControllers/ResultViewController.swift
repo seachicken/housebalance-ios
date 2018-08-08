@@ -62,10 +62,10 @@ class ResultViewController: UIViewController {
 
     self.viewModel.outputs.helpViewShown
       .subscribe(onNext: { [weak self] _ in
-        let vc = HelpViewController.instantiate()
-        vc.transitioningDelegate = self
-        vc.modalPresentationStyle = .custom
-        self?.present(vc, animated: true)
+        let hvc = HelpViewController.instantiate()
+        hvc.transitioningDelegate = self
+        hvc.modalPresentationStyle = .custom
+        self?.present(hvc, animated: true)
       })
       .disposed(by: self.disposeBag)
 

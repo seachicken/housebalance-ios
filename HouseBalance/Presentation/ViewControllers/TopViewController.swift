@@ -67,10 +67,10 @@ class TopViewController: UIViewController {
       .subscribe(onNext: { [weak self] in
         self?.viewModel.inputs.doneButtonPressed()
 
-        let vc = ResultViewController.instantiate()
-        vc.transitioningDelegate = self
-        vc.modalPresentationStyle = .custom
-        self?.present(vc, animated: true)
+        let rvc = ResultViewController.instantiate()
+        rvc.transitioningDelegate = self
+        rvc.modalPresentationStyle = .custom
+        self?.present(rvc, animated: true)
       })
       .disposed(by: self.disposeBag)
 

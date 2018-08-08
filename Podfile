@@ -8,15 +8,14 @@ target 'HouseBalance' do
   # Pods for HouseBalance
   pod 'Firebase/Core'
   pod 'Firebase/AdMob'
-  pod 'Firebase/Crash'
+  pod 'Fabric', '~> 1.7.6'
+  pod 'Crashlytics', '~> 3.10.1'
 
   target 'HouseBalanceTests' do
     inherit! :search_paths
     # Pods for testing
-    # 依存関係に含めないと@testable importでエラーになる
     pod 'Firebase/Core'
     pod 'Firebase/AdMob'
-    pod 'Firebase/Crash'
   end
 
 end
