@@ -61,7 +61,7 @@ class ResultViewController: UIViewController {
       .disposed(by: disposeBag)
 
     self.viewModel.outputs.helpViewShown
-      .filter{ $0 }
+      .filter { $0 }
       .subscribe(onNext: { [weak self] _ in
         let hvc = HelpViewController.instantiate()
         hvc.transitioningDelegate = self
