@@ -1,5 +1,7 @@
 # HouseBalance for iOS
 
+[![Build Status](https://travis-ci.org/seachicken/housebalance-ios.svg?branch=master)](https://travis-ci.org/seachicken/housebalance-ios)
+
 The app in this project is a simple household expenditure calculator. Also, [released in the App Store](http://goo.gl/G2EVwQ).  
 This project structure adopts RxSwift on MVVM architecture.
 

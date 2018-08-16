@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode9.4
+xcode_workspace: HouseBalance.xcworkspace
+xcode_scheme: HouseBalance
+xcode_destination: platform=iOS Simulator,OS=9.0,name=iPhone 5s
+
+before_install:
+  - carthage bootstrap --platform iOS
