@@ -21,13 +21,13 @@ class TopViewModelTests: XCTestCase {
   }
 
   func test必須項目が全て入力されると確定ボタンを有効化する() {
-    let vm = TopViewModel()
+    let viewModel = TopViewModel()
     let expectation = XCTestExpectation(description: "有効状態が出力されること")
 
-    vm.inputs.salaryChanged("1")
-    vm.inputs.pickerView(didSelectRow: 1)
+    viewModel.inputs.salaryChanged("1")
+    viewModel.inputs.pickerView(didSelectRow: 1)
 
-    vm.outputs.isValid
+    viewModel.outputs.isValid
       .subscribe(onNext: {
         XCTAssertEqual(true, $0)
         expectation.fulfill()
@@ -38,13 +38,13 @@ class TopViewModelTests: XCTestCase {
   }
 
   func test月収欄に1億を超える値が入った場合は確定ボタンを無効化する() {
-    let vm = TopViewModel()
+    let viewModel = TopViewModel()
     let expectation = XCTestExpectation(description: "無効状態が出力されること")
 
-    vm.inputs.salaryChanged("10000")
-    vm.inputs.pickerView(didSelectRow: 1)
+    viewModel.inputs.salaryChanged("10000")
+    viewModel.inputs.pickerView(didSelectRow: 1)
 
-    vm.outputs.isValid
+    viewModel.outputs.isValid
       .subscribe(onNext: {
         XCTAssertEqual(false, $0)
         expectation.fulfill()
@@ -55,13 +55,13 @@ class TopViewModelTests: XCTestCase {
   }
 
   func test月収欄に数値以外が入った場合は確定ボタンを無効化する() {
-    let vm = TopViewModel()
+    let viewModel = TopViewModel()
     let expectation = XCTestExpectation(description: "無効状態が出力されること")
 
-    vm.inputs.salaryChanged("a")
-    vm.inputs.pickerView(didSelectRow: 1)
+    viewModel.inputs.salaryChanged("a")
+    viewModel.inputs.pickerView(didSelectRow: 1)
 
-    vm.outputs.isValid
+    viewModel.outputs.isValid
       .subscribe(onNext: {
         XCTAssertEqual(false, $0)
         expectation.fulfill()
@@ -72,13 +72,13 @@ class TopViewModelTests: XCTestCase {
   }
 
   func test家族構成欄が未設定の場合は確定ボタンを無効化する() {
-    let vm = TopViewModel()
+    let viewModel = TopViewModel()
     let expectation = XCTestExpectation(description: "無効状態が出力されること")
 
-    vm.inputs.salaryChanged("1")
-    vm.inputs.pickerView(didSelectRow: 0)
+    viewModel.inputs.salaryChanged("1")
+    viewModel.inputs.pickerView(didSelectRow: 0)
 
-    vm.outputs.isValid
+    viewModel.outputs.isValid
       .subscribe(onNext: {
         XCTAssertEqual(false, $0)
         expectation.fulfill()
@@ -89,10 +89,10 @@ class TopViewModelTests: XCTestCase {
   }
 
   func test初回起動時に月収欄が空白であること() {
-    let vm = TopViewModel()
+    let viewModel = TopViewModel()
     let expectation = XCTestExpectation(description: "空白が出力されること")
 
-    vm.outputs.salaryText
+    viewModel.outputs.salaryText
       .subscribe(onNext: {
         XCTAssertEqual("", $0)
         expectation.fulfill()
@@ -104,10 +104,10 @@ class TopViewModelTests: XCTestCase {
 
   func test次回以降の起動時は月収欄に前回値が設定されていること() {
     AppEnvironment.settings.salary = Salary(1)
-    let vm = TopViewModel()
+    let viewModel = TopViewModel()
     let expectation = XCTestExpectation(description: "前回値が出力されること")
 
-    vm.outputs.salaryText
+    viewModel.outputs.salaryText
       .subscribe(onNext: {
         XCTAssertEqual("1", $0)
         expectation.fulfill()
